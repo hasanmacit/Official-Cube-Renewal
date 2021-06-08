@@ -1,0 +1,6 @@
+CUBE_INFO_TITLE	Arındırma Kılavuzu
+CUBE_RENEWAL_BELT_IMPROVE	Şansı artır
+CUBE_RENEWAL_TITLE	Arındırma
+CUBE_REQUIRE_MATERIAL	Gerekli malzemeler:
+CUBE_REQUIRE_MATERIAL_OR	veya
+CUBE_TITLE	Arındırma Paneli
