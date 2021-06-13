@@ -492,10 +492,15 @@ void Cube_Make(LPCHARACTER ch, int index, int count_item, int index_item_improve
 					iEmptyPos = ch->GetEmptyChestInventory(pItem);
 				}
 #endif
+#ifdef ENABLE_SPECIAL_INVENTORY
+				else {
+					iEmptyPos = ch->GetEmptyInventory(pItem);
+				}
+#else
 				else {
 					iEmptyPos = ch->GetEmptyInventory(pItem->GetSize());
 				}
-
+#endif
 				if (iEmptyPos < 0)
 				{
 					ch->ChatPacket(CHAT_TYPE_INFO, "You do not have enough space in your inventory.");
@@ -612,7 +617,15 @@ void Cube_Make(LPCHARACTER ch, int index, int count_item, int index_item_improve
 						}
 					}
 #endif
+#ifdef ENABLE_SPECIAL_INVENTORY
+				else {
+					iEmptyPos = ch->GetEmptyInventory(pItem);
+				}
+#else
+				else {
 					iEmptyPos = ch->GetEmptyInventory(pItem->GetSize());
+				}
+#endif
 					pItem->AddToCharacter(ch, TItemPos(INVENTORY, iEmptyPos));
 				}
 
