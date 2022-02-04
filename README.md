@@ -1,3 +1,3 @@
 # Official-Cube-Renewal
 
-![0607_232538](https://user-images.githubusercontent.com/79380739/121249597-6daec600-c8ad-11eb-9e9d-0bd1d4e6a898.jpg)
+![0204_032540](https://user-images.githubusercontent.com/88248649/152462256-1a49796e-16fb-4fbc-abc5-123cc81e1640.jpg)
